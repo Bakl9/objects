@@ -40,3 +40,50 @@
             // };
 
             // alert( bag.apple);
+
+
+// let obj = {
+//     test: undefined 
+// };
+
+// alert( obj.test );
+// alert( 'test' in obj );
+
+
+
+// let user = {
+//     name: 'John',
+//     age: 30,
+//     isAdmin: true
+// };
+
+// for (let key in user){
+//     alert( key );
+
+//     alert( user[key] );
+// }
+
+
+// let codes = {
+//     '49': 'Германия',
+//     "41": "Швейцария",
+//     "44": "Великобритания",
+//     "1": "США"
+// };
+
+// for (let code in codes) {
+//     alert(code);
+// }
+
+
+let codes = {
+    "+49": "Германия",
+    "+41": "Швейцария",
+    "+44": "Великобритания",
+
+    "+1": "США"
+};
+
+for (let code in codes) {
+    alert( +code );
+}
