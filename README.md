@@ -23,3 +23,20 @@
             
             
                 console.log(newee)
+// let user = {
+            //     name: 'John',
+            //     age: 30
+            // };
+
+            // let key = prompt ('Что вы хотите узнать о пользователе?' , 'name');
+
+            // alert( user [key] );
+
+
+            // let fruit = prompt('Какой фрукт купить?', 'Apple');
+
+            // let bag = {
+            //     [fruit]: 5,
+            // };
+
+            // alert( bag.apple);
