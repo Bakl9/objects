@@ -87,3 +87,14 @@ let codes = {
 for (let code in codes) {
     alert( +code );
 }
+\
+ const user = Object.assign ({
+                age: 30,
+                name: 'Ilysha',
+            })
+
+            const newUser = Object.assign ({}, user ,{
+                email: 'commencal@mail.ru'
+            })
+
+            console.log(newUser)
