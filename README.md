@@ -12,7 +12,7 @@
 
             console.log(Newsummer)
  const newspapaer = Object.assign ({
-                time: '12-mp',
+                time: '12-mp',  
                 auto: 'bmw',
                 name: 'ilysha',
             })
