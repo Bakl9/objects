@@ -114,7 +114,7 @@ console.log(person);
 console.log(NewPerson);
 
 console.log(Object.keys(person)) // метод для проверки индекса в обьекте
-
+console.log(Object.values(person)) // метод для проверки 
 
 
 
