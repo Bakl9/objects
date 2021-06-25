@@ -118,5 +118,7 @@ console.log(Object.values(person)) // метод для проверки
 console.log(Object.entries(person)) // получает сразу развернутый массив
 Object.freeze(person)
 person.name = 'Ivan' /// мотод замораживает обьект и делает его не изменным
+Object.freeze(person) // изменяет обьект, нужно будет затестить как он работает))
+person.name = 'Ivan'
 
 
