@@ -116,5 +116,7 @@ console.log(NewPerson);
 console.log(Object.keys(person)) // метод для проверки индекса в обьекте
 console.log(Object.values(person)) // метод для проверки 
 console.log(Object.entries(person)) // получает сразу развернутый массив
+Object.freeze(person)
+person.name = 'Ivan' /// мотод замораживает обьект и делает его не изменным
 
 
