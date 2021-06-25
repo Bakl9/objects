@@ -98,3 +98,23 @@ for (let code in codes) {
             })
 
             console.log(newUser)
+
+
+const person = Object.assign({
+    name: 'Ilsha',
+    age: 25,
+    id: 'owerTools',
+});
+
+const NewPerson = Object.assign({}, person, {
+    mail: "@mail.ru",
+});
+
+console.log(person);
+console.log(NewPerson);
+
+console.log(Object.keys(person)) // метод для проверки индекса в обьекте
+
+
+
+
