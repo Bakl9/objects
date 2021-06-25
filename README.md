@@ -113,8 +113,8 @@ const NewPerson = Object.assign({}, person, {
 console.log(person);
 console.log(NewPerson);
 
-console.log(Object.keys(person)) // метод для проверки индекса в обьекте
-console.log(Object.values(person)) // метод для проверки 
+console.log(Object.keys(person)) // Приобразует обьекты в массив и показывает ключи в нем
+console.log(Object.values(person)) //  Приобразует обьекты в массив и показывает знаечение в нем
 console.log(Object.entries(person)) // получает сразу развернутый массив
 Object.freeze(person)
 person.name = 'Ivan' /// мотод замораживает обьект и делает его не изменным
@@ -122,5 +122,6 @@ Object.freeze(person) // изменяет обьект, нужно будет з
 person.name = 'Ivan'
 
 const isPerson = Object.is(person, newPerson); // is метод стравнивает
+
 
 
