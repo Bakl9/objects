@@ -115,7 +115,7 @@ console.log(NewPerson);
 
 console.log(Object.keys(person)) // Приобразует обьекты в массив и показывает ключи в нем
 console.log(Object.values(person)) //  Приобразует обьекты в массив и показывает знаечение в нем
-console.log(Object.entries(person)) // получает сразу развернутый массив
+console.log(Object.entries(person)) // Приобразует обьект в массив и выдает ключ со значением
 Object.freeze(person)
 person.name = 'Ivan' /// мотод замораживает обьект и делает его не изменным
 Object.freeze(person) // изменяет обьект, нужно будет затестить как он работает))
