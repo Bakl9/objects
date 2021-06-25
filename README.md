@@ -87,7 +87,7 @@ let codes = {
 for (let code in codes) {
     alert( +code );
 }
-\
+
  const user = Object.assign ({
                 age: 30,
                 name: 'Ilysha',
@@ -115,6 +115,6 @@ console.log(NewPerson);
 
 console.log(Object.keys(person)) // метод для проверки индекса в обьекте
 console.log(Object.values(person)) // метод для проверки 
-
+console.log(Object.entries(person)) // получает сразу развернутый массив
 
 
